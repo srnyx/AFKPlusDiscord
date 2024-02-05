@@ -4,6 +4,24 @@ authors:
   - srnyx
 website: https://srnyx.com
 
-main: ${group}.name.Name
+main: ${group}.afkplusdiscord.AFKPlusDiscord
 version: ${version}
-api-version: 1.13
+api-version: 1.19
+
+depend:
+  - AFKPlus
+  - DiscordSRV
+
+commands:
+  afkplusdiscordreload:
+    description: Reloads the plugin
+    aliases:
+      - apdreload
+      - afkplusdiscordr
+      - apdr
+      - afkdiscordreload
+    permission: afkplusdiscord.reload
+
+permissions:
+  afkplusdiscord.reload:
+    description: Allows the player to use /afkplusdiscordreload
