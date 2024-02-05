@@ -12,7 +12,7 @@ public class AFKPlusDiscord extends AnnoyingPlugin {
                         .updatePlatforms(
                                 PluginPlatform.modrinth("afkplusdiscord"),
                                 PluginPlatform.hangar(this, "srnyx"),
-                                PluginPlatform.spigot("123456"))
+                                PluginPlatform.spigot("114950"))
                         .dependencies(
                                 new AnnoyingDependency("AFKPlus", true, false,
                                         PluginPlatform.spigot("35065")),

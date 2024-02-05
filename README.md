@@ -8,7 +8,7 @@ Get [AFK+](https://spigotmc.org/resources/35065) updates (player AFK/un-AFK) in 
 
 ## Download
 
-**✅ Stable:** You can download the latest **stable** version at [Modrinth](https://modrinth.com/plugin/afkplusdiscord), [Hangar](https://hangar.papermc.io/srnyx/AFKPlusDiscord), [Spigot](https://spigotmc.org/resources/123456), [Bukkit](https://dev.bukkit.org/projects/afkplusdiscord), or [GitHub](https://github.com/srnyx/afkplusdiscord/releases)
+**✅ Stable:** You can download the latest **stable** version at [Modrinth](https://modrinth.com/plugin/afkplusdiscord), [Hangar](https://hangar.papermc.io/srnyx/AFKPlusDiscord), [Spigot](https://spigotmc.org/resources/114950), [Bukkit](https://dev.bukkit.org/projects/afkplusdiscord), or [GitHub](https://github.com/srnyx/afkplusdiscord/releases)
 
 **🚧 Snapshot:** You can download the latest **snapshot** version at [actions/workflows/build.yml](https://github.com/srnyx/afkplusdiscord/actions/workflows/build.yml)
 
