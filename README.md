@@ -1,6 +1,6 @@
 # AFKPlusDiscord
 
-Get AFK+ updates (player AFK/un-AFK) in Discord through DiscordSRV. All messages are configurable!
+Get [AFK+](https://spigotmc.org/resources/35065) updates (player AFK/un-AFK) in Discord through [DiscordSRV](https://modrinth.com/plugin/discordsrv). All messages are configurable!
 
 **🐛 Bugs / 💡 Suggestions:** Please [open an issue](https://github.com/srnyx/afkplusdiscord/issues/new/choose) to report a bug or suggest an idea
 
