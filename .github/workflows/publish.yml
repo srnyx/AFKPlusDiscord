@@ -9,8 +9,8 @@ jobs:
   build:
     uses: srnyx/tools/.github/workflows/publish.yml@main
     with:
-      modrinth: afkplusdiscord
-      curseforge: curseforgeId
+      modrinth: f49kyNQQ
+      curseforge: 971251
       java: 11
       versions: ">=1.19.3"
     secrets: inherit
