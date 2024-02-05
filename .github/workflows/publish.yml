@@ -11,6 +11,8 @@ jobs:
     with:
       modrinth: afkplusdiscord
       curseforge: curseforgeId
+      java: 11
+      versions: ">=1.19.3"
     secrets: inherit
     permissions:
       contents: write
