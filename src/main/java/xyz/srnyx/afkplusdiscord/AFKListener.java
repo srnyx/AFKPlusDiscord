@@ -4,6 +4,7 @@ import github.scarsz.discordsrv.DiscordSRV;
 import github.scarsz.discordsrv.dependencies.jda.api.entities.TextChannel;
 
 import net.lapismc.afkplus.AFKPlus;
+import net.lapismc.afkplus.api.AFKPlusAPI;
 import net.lapismc.afkplus.api.AFKStartEvent;
 import net.lapismc.afkplus.api.AFKStopEvent;
 import net.lapismc.afkplus.playerdata.AFKPlusPlayer;
@@ -11,7 +12,6 @@ import net.lapismc.afkplus.playerdata.AFKPlusPlayer;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
-import org.bukkit.plugin.java.JavaPlugin;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -29,7 +29,7 @@ public class AFKListener extends AnnoyingListener {
 
     public AFKListener(@NotNull AFKPlusDiscord plugin) {
         this.plugin = plugin;
-        this.afkPlus = JavaPlugin.getPlugin(AFKPlus.class);
+        this.afkPlus = new AFKPlusAPI().getPlugin();
         this.discordSRV = DiscordSRV.getPlugin();
     }
 
