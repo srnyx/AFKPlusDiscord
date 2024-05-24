@@ -1,0 +1,5 @@
+# Whether to send a Discord message when someone goes AFK
+start: true
+
+# Whether to send a Discord message when someone stops being AFK
+stop: true

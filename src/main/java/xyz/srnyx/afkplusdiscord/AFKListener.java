@@ -40,12 +40,12 @@ public class AFKListener extends AnnoyingListener {
 
     @EventHandler(priority = EventPriority.MONITOR)
     public void onAFKStart(@NotNull AFKStartEvent event) {
-        if (!event.isCancelled()) sendDiscordMessage(new AnnoyingMessage(plugin, "afk.start"), event.getPlayer());
+        if (plugin.start && !event.isCancelled()) sendDiscordMessage(new AnnoyingMessage(plugin, "afk.start"), event.getPlayer());
     }
 
     @EventHandler(priority = EventPriority.MONITOR)
     public void onAFKStop(@NotNull AFKStopEvent event) {
-        if (event.isCancelled()) return;
+        if (!plugin.stop || event.isCancelled()) return;
         final AFKPlusPlayer player = event.getPlayer();
         final String time = afkPlus.prettyTime.formatDuration(afkPlus.reduceDurationList(afkPlus.prettyTime.calculatePreciseDuration(new Date(player.getAFKStart()))));
         sendDiscordMessage(new AnnoyingMessage(plugin, "afk.stop").replace("%time%", time), player);
