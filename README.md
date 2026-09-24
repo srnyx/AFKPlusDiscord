@@ -1,3 +1,7 @@
+# ⚠️ Plugin Archived!
+
+[AFK+](https://spigotmc.org/resources/35065) now supports this plugin's features natively
+
 # AFKPlusDiscord
 
 Get [AFK+](https://spigotmc.org/resources/35065) updates (player AFK/un-AFK) in Discord through [DiscordSRV](https://modrinth.com/plugin/discordsrv). All messages are configurable!
